@@ -5,13 +5,13 @@ export default function Header() {
     <header className='container m-auto mt-20'>
         <div className='flex justify-between'>
             <div>
-                <h1 className='text-white text-[80px] font-extrabold'>New Cafe
-                by <span className='text-[#237249]'>StarBucks</span></h1>
-                <p>Have time to buy the most harmonious drinks in the 
+                <h1 className='text-white text-[90px] font-extrabold w-[558px] leading-24'>New Cafe
+                 by <span className='text-[#237249]'>StarBucks</span></h1>
+                <p className='w-[570px] text-[20px] text-[#D9D9D9]'>Have time to buy the most harmonious drinks in the 
                 new Starbucks coffee and don't forget about the discount!</p>
                 <div>
-                    <button>Select a coffee </button>
-                    <button>More</button>
+                    <button className='bg-[#237249] rounded-[82px] text-[24px] text-white font-semibold py-3 px-16'>Select a coffee </button>
+                    <button className='bg-[#121517] py-3 px-4 rounded-[82px] border'>More</button>
                 </div>
                 <div>
                    <div>
