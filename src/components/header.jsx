@@ -4,25 +4,25 @@ export default function Header() {
   return (
     <header className='container m-auto mt-20'>
         <div className='flex justify-between'>
-            <div>
-                <h1 className='text-white text-[90px] font-extrabold w-[558px] leading-24'>New Cafe
-                 by <span className='text-[#237249]'>StarBucks</span></h1>
+            <div className='flex flex-col gap-11 '>
+                <h1 className='text-white text-[80px] font-extrabold w-[543px] leading-24 mt-6'>New Cafe by
+                   <span className='text-[#237249]'> StarBucks</span></h1>
                 <p className='w-[570px] text-[20px] text-[#D9D9D9]'>Have time to buy the most harmonious drinks in the 
                 new Starbucks coffee and don't forget about the discount!</p>
-                <div>
-                    <button className='bg-[#237249] rounded-[82px] text-[24px] text-white font-semibold py-3 px-16'>Select a coffee </button>
-                    <button className='bg-[#121517] py-3 px-4 rounded-[82px] border'>More</button>
+                <div className='flex gap-6'>
+                    <button className='bg-[#237249] rounded-[82px] text-[24px] text-white font-semibold py-3 px-16 cursor-pointer'>Select a coffee </button>
+                    <button className='border border-[#DADADA] text-white text-2xl cursor-pointer bg-[#121517] py-3 px-4 rounded-[82px] '>More</button>
                 </div>
-                <div>
+                <div className='flex gap-16'>
                    <div>
-                   <p>9k <span>+</span></p>
-                   <p>Premium Users</p>
+                   <h3 className='text-[62px] text-white leading-24'>9k<span className='text-[#237249]'>+</span></h3>
+                   <p className='text-[#D9D9D9] text-[20px] leading-[144%] w-[122px]'>Premium Users</p>
                    </div>
-                    <div><p>2k <span>+</span></p>
-                    <p>Happy Customer</p></div>
+                    <div><p className='text-[62px] text-white leading-24'>2k<span className='text-[#237249]'>+</span></p>
+                    <p className='text-[#D9D9D9] text-[20px] leading-[144%] w-[122px]'>Happy Customer</p></div>
                     <div>
-                        <p>28 <span>+</span></p>
-                        <p>Awards Winning</p>
+                        <p className='text-[62px] text-white leading-24'>28<span className='text-[#237249]'>+</span></p>
+                        <p className='text-[#D9D9D9] text-xl leading-[144%] w-[122px]'>Awards Winning</p>
                     </div>
                 </div>
             </div>
@@ -30,9 +30,27 @@ export default function Header() {
                 <img src="src/assets/Group 2.png" alt="" />
             </div>
         </div>
-        <div className='justify-center items-center'>
-        <img src="src/assets/group.png" alt="" />
-        </div>
+        <div className="container m-auto w-5xl flex items-center justify-between rounded-[46px] bg-white py-10 px-20 mt-28 mb-25 relative">
+                <img className="absolute -top-20 -left-20" src="src/assets/badge.png" alt="" />
+                
+                <div className="w-[190px] text-center">
+                    <img src="src/assets/21 1.png" alt="" />
+                    <h3 className="font-medium text-[32px]">Tasty</h3>
+                    <p className="text-xl">We have the most delicious coffee</p>
+                </div>
+
+                <div className="w-[216px] text-center">
+                    <img src="src/assets/30 1.png" alt="" />
+                    <h3 className="font-medium text-[32px]">Fast</h3>
+                    <p className="text-xl">Our cafe will serve you quickly</p>
+                </div>
+
+                <div className="w-[211px] text-center">
+                    <img src="src/assets/10 1.png" alt="" />
+                    <h3 className="font-medium text-[32px]">Available</h3>
+                    <p className="text-xl">Cafe will serveat the most pleasant prices</p>
+                </div>
+            </div>
     </header>
   )
 }
