@@ -6,11 +6,11 @@ export default function Header() {
         <div className='flex justify-between'>
             <div className='flex flex-col gap-11 '>
                 <h1 className='text-white text-[80px] font-extrabold w-[543px] leading-24 mt-6'>New Cafe by
-                   <span className='text-[#237249]'> StarBucks</span></h1>
+                   <span className='bg-[linear-gradient(265.23deg,_#237249_6.79%,_#35C66B_97.2%)] bg-clip-text text-transparent'> StarBucks</span></h1>
                 <p className='w-[570px] text-[20px] text-[#D9D9D9]'>Have time to buy the most harmonious drinks in the 
                 new Starbucks coffee and don't forget about the discount!</p>
                 <div className='flex gap-6'>
-                    <button className='bg-[#237249] rounded-[82px] text-[24px] text-white font-semibold py-3 px-16 cursor-pointer'>Select a coffee </button>
+                    <button className='bg-[linear-gradient(265.23deg,_#237249_6.79%,_#35C66B_97.2%)] rounded-[82px] text-[24px] text-white font-semibold py-3 px-16 cursor-pointer'>Select a coffee </button>
                     <button className='border border-[#DADADA] text-white text-2xl cursor-pointer bg-[#121517] py-3 px-4 rounded-[82px] '>More</button>
                 </div>
                 <div className='flex gap-16'>
