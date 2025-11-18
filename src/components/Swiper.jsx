@@ -10,13 +10,16 @@ export default () => {
       slidesPerView={3}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
+      className='flex! items-center'
     >
 
-    <SlidePrevButton/>
+   <div>
+   <SlidePrevButton/>
+   </div>
 
       <SwiperSlide>
-      <div className='border-[2px] border-solid [border-image:linear-gradient(267.2deg,_#237249_3.05%,_#35C66B_75.72%)_1] px-11 py-8 w-[277px] h-[554px] rounded-[30px] flex flex-col items-center gap-2'>
-            <img src="src/assets/Group 132.png" alt="" />
+      <div className='border border-[#35C66B] px-11 py-8 w-[277px] h-[554px] rounded-[30px] flex flex-col items-center gap-2 bg-amber-50 bg-transparent'>
+            <img className='' src="src/assets/Group 132.png" alt="" />
             <h3 className='text-white font-medium text-[32px]'>Fast</h3>
             <p className='text-[#D9D9D9] text-[20px] w-[216px] text-center'>Our cafe will serve you quickly</p>
             <div className='flex items-center gap-4'>
@@ -27,7 +30,7 @@ export default () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-      <div className='border-[2px] border-solid [border-image:linear-gradient(267.2deg,_#237249_3.05%,_#35C66B_75.72%)_1] px-11 py-8 w-[277px] h-[554px] rounded-[30px] flex flex-col items-center gap-2'>
+      <div className='border border-[#35C66B] px-11 py-8 w-[277px] h-[554px] rounded-[30px] flex flex-col items-center gap-2'>
             <img src="src/assets/Group 133.svg" alt="" />
             <h3 className='text-white font-medium text-[32px]'>Fast</h3>
             <p className='text-[#D9D9D9] text-[20px] w-[216px] text-center'>Our cafe will serve you quickly</p>
@@ -39,7 +42,7 @@ export default () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-      <div className='border-[2px] border-solid [border-image:linear-gradient(267.2deg,_#237249_3.05%,_#35C66B_75.72%)_1] px-11 py-8 w-[277px] h-[554px] rounded-[30px] flex flex-col items-center gap-2'>
+      <div className='border border-[#35C66B] px-11 py-8 w-[277px] h-[554px] rounded-[30px] flex flex-col items-center gap-2'>
             <img src="src/assets/Group 132.svg" alt="" />
             <h3 className='text-white font-medium text-[32px]'>Fast</h3>
             <p className='text-[#D9D9D9] text-[20px] w-[216px] text-center'>Our cafe will serve you quickly</p>
@@ -51,7 +54,7 @@ export default () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className='border-[2px] border-solid [border-image:linear-gradient(267.2deg,_#237249_3.05%,_#35C66B_75.72%)_1] px-11 py-8 w-[277px] h-[554px] rounded-[30px] flex flex-col items-center gap-2'>
+        <div className='border border-[#35C66B] px-11 py-8 w-[277px] h-[554px] rounded-[29px] flex flex-col items-center gap-2'>
             <img src="src/assets/Group 132.png" alt="" />
             <h3 className='text-white font-medium text-[32px]'>Cappuccino</h3>
             <p className='text-[#D9D9D9] text-[20px] w-[216px] text-center'>Our cafe will serve you quickly</p>
@@ -63,7 +66,9 @@ export default () => {
         </div>
       </SwiperSlide>
       
-      <SlideNextButton/>
+     <div>
+     <SlideNextButton/>
+     </div>
     </Swiper>
     
   );  

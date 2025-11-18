@@ -6,9 +6,8 @@ export default function SlideNextButton() {
 
   return (
    
-      <button className='border-[1.5px] border-solid rounded-xl
-    [border-image-source:linear-gradient(267.2deg,#237249_3.05%,#35C66B_75.72%)]
-    [border-image-slice:1] p-9 ' onClick={() => swiper.slideNext()}><img src="src/assets/Arrow 1.png" alt="" /></button>
+      <button className='
+    border border-[#35C66B] rounded-[29px] p-9 backdrop-blur-[100.76123809814453px]' onClick={() => swiper.slideNext()}><img src="src/assets/Arrow 1.png" alt="" /></button>
   
   );
 }

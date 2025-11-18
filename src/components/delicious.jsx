@@ -1,6 +1,6 @@
 function Delicious () {
     return (
-        <section className="container m-auto flex justify-between mt-25 mb-20">
+        <section className="container m-auto flex gap-82 mt-25 mb-20">
             <div>
                 <img src="src/assets/Group 97.png" alt="" />
             </div>

@@ -3,7 +3,7 @@ import React from 'react'
 export default function Header() {
   return (
     <header className='container m-auto mt-20'>
-        <div className='flex justify-between'>
+        <div className='flex gap-[270px]'>
             <div className='flex flex-col gap-11 '>
                 <h1 className='text-white text-[80px] font-extrabold w-[543px] leading-24 mt-6'>New Cafe by
                    <span className='bg-[linear-gradient(265.23deg,_#237249_6.79%,_#35C66B_97.2%)] bg-clip-text text-transparent'> StarBucks</span></h1>
