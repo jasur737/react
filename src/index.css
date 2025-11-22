@@ -3,3 +3,35 @@ body {
     background-color: #121517;
     font-family: Montserrat;
 }
+
+.swiper-button-prev {
+    background-image: url("src/assets/swiper-btn.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 84px;
+    height: 84px;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    z-index: 10;
+  }
+  
+  .swiper-button-next {
+    background-image: url("src/assets/swiper-btn.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 84px;
+    height: 84px;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    z-index: 10;
+  }
+  
+  .swiper-navigation-icon {
+    display: none;
+  }
+  

@@ -1,75 +1,113 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import SlideNextButton from './SlideNextButton';
-import SlidePrevButton from './SlidePrevButton';
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import "swiper/css";
 
 export default () => {
   return (
     <Swiper
-      spaceBetween={-580}
+      modules={[Navigation, Pagination, Scrollbar, A11y]}
+      navigation
+      spaceBetween={54}
       slidesPerView={3}
-      onSlideChange={() => console.log('slide change')}
+      onSlideChange={() => console.log("slide change")}
       onSwiper={(swiper) => console.log(swiper)}
-      className='flex! items-center'
+      className="container px-30!"
     >
+      <SwiperSlide
+        className="bg-amber-50 w-[277px]! h-[600px]! bg-transparent border border-[#35C66B] rounded-[29px] flex! flex-col
+             items-center gap-2"
+      >
+        <img src="src/assets/coffe-1.svg" alt="" />
+        <h3 className="font-medium text-[32px] text-white">Fast</h3>
+        <p className="text-xl leading-[163%] text-white text-center">
+          Our cafe will serve you quickly
+        </p>
+        <div className="flex items-center gap-9">
+          <span className="font-medium text-[32px] text-white">7,45$</span>
+          <span className="text-xl leading-[163%] text-white">330 ml</span>
+        </div>
+        <button
+          className="py-3 px-9 rounded-[83px] font-semibold text-xl text-white cursor-pointer 
+                bg-[linear-gradient(265.23deg,_#237249_6.79%,_#35C66B_97.2%)]"
+        >
+          Buy Product
+        </button>
+      </SwiperSlide>
 
-   <div>
-   <SlidePrevButton/>
-   </div>
+      <SwiperSlide className="bg-amber-50 w-[277px]! h-[600px]! bg-transparent border border-[#35C66B] rounded-[29px] flex! flex-col items-center gap-2">
+        <img src="src/assets/coffe-2.svg" alt="" />
+        <h3 className="font-medium text-[32px] text-white">Fast</h3>
+        <p className="text-xl leading-[163%] text-white text-center">
+          Our cafe will serve you quickly
+        </p>
+        <div className="flex items-center gap-9">
+          <span className="font-medium text-[32px] text-white">7,45$</span>
+          <span className="text-xl leading-[163%] text-white">330 ml</span>
+        </div>
+        <button className="py-3 px-9 rounded-[83px] font-semibold text-xl text-white cursor-pointer bg-[linear-gradient(265.23deg,_#237249_6.79%,_#35C66B_97.2%)]">
+          Buy Product
+        </button>
+      </SwiperSlide>
 
-      <SwiperSlide>
-      <div className='border border-[#35C66B] px-11 py-8 w-[277px] h-[554px] rounded-[30px] flex flex-col items-center gap-2 bg-amber-50 bg-transparent'>
-            <img className='' src="src/assets/Group 132.png" alt="" />
-            <h3 className='text-white font-medium text-[32px]'>Fast</h3>
-            <p className='text-[#D9D9D9] text-[20px] w-[216px] text-center'>Our cafe will serve you quickly</p>
-            <div className='flex items-center gap-4'>
-                <p className='text-[#D9D9D9] font-medium text-[32px]'>7,45$</p>
-                <p className='text-[#D9D9D9] text-[20px]'>330 ml</p>
-            </div>
-            <button className='text-white bg-[linear-gradient(265.23deg,_#237249_6.79%,_#35C66B_97.2%)] font-semibold text-[17px] py-4 px-9 rounded-[60px]'>Buy Product</button>
+      <SwiperSlide className="bg-amber-50 w-[277px]! h-[600px]! bg-transparent border border-[#35C66B] rounded-[29px] flex! flex-col items-center gap-2">
+        <img src="src/assets/coffe-3.png" alt="" />
+        <h3 className="font-medium text-[32px] text-white">Cappuccino</h3>
+        <p className="text-xl leading-[163%] text-white text-center">
+          Our cafe will serve you quickly
+        </p>
+        <div className="flex items-center gap-9">
+          <span className="font-medium text-[32px] text-white">7,45$</span>
+          <span className="text-xl leading-[163%] text-white">330 ml</span>
         </div>
+        <button className="py-3 px-9 rounded-[83px] font-semibold text-xl text-white cursor-pointer bg-[linear-gradient(265.23deg,_#237249_6.79%,_#35C66B_97.2%)]">
+          Buy Product
+        </button>
       </SwiperSlide>
-      <SwiperSlide>
-      <div className='border border-[#35C66B] px-11 py-8 w-[277px] h-[554px] rounded-[30px] flex flex-col items-center gap-2'>
-            <img src="src/assets/Group 133.svg" alt="" />
-            <h3 className='text-white font-medium text-[32px]'>Fast</h3>
-            <p className='text-[#D9D9D9] text-[20px] w-[216px] text-center'>Our cafe will serve you quickly</p>
-            <div className='flex items-center gap-4'>
-                <p className='text-[#D9D9D9] font-medium text-[32px]'>7,45$</p>
-                <p className='text-[#D9D9D9] text-[20px]'>330 ml</p>
-            </div>
-            <button className='text-white bg-[linear-gradient(265.23deg,_#237249_6.79%,_#35C66B_97.2%)] font-semibold text-[17px] py-4 px-9 rounded-[60px]'>Buy Product</button>
+
+      <SwiperSlide className="bg-amber-50 w-[277px]! h-[600px]! bg-transparent border border-[#35C66B] rounded-[29px] flex! flex-col items-center gap-2">
+        <img src="src/assets/coffe-1.svg" alt="" />
+        <h3 className="font-medium text-[32px] text-white">Fast</h3>
+        <p className="text-xl leading-[163%] text-white text-center">
+          Our cafe will serve you quickly
+        </p>
+        <div className="flex items-center gap-9">
+          <span className="font-medium text-[32px] text-white">7,45$</span>
+          <span className="text-xl leading-[163%] text-white">330 ml</span>
         </div>
+        <button className="py-3 px-9 rounded-[83px] font-semibold text-xl text-white cursor-pointer bg-[linear-gradient(265.23deg,_#237249_6.79%,_#35C66B_97.2%)]">
+          Buy Product
+        </button>
       </SwiperSlide>
-      <SwiperSlide>
-      <div className='border border-[#35C66B] px-11 py-8 w-[277px] h-[554px] rounded-[30px] flex flex-col items-center gap-2'>
-            <img src="src/assets/Group 132.svg" alt="" />
-            <h3 className='text-white font-medium text-[32px]'>Fast</h3>
-            <p className='text-[#D9D9D9] text-[20px] w-[216px] text-center'>Our cafe will serve you quickly</p>
-            <div className='flex items-center gap-4'>
-                <p className='text-[#D9D9D9] font-medium text-[32px]'>7,45$</p>
-                <p className='text-[#D9D9D9] text-[20px]'>330 ml</p>
-            </div>
-            <button className='text-white bg-[linear-gradient(265.23deg,_#237249_6.79%,_#35C66B_97.2%)] font-semibold text-[17px] py-4 px-9 rounded-[60px]'>Buy Product</button>
+
+      <SwiperSlide className="bg-amber-50 w-[277px]! h-[600px]! bg-transparent border border-[#35C66B] rounded-[29px] flex! flex-col items-center gap-2">
+        <img src="src/assets/coffe-2.svg" alt="" />
+        <h3 className="font-medium text-[32px] text-white">Fast</h3>
+        <p className="text-xl leading-[163%] text-white text-center">
+          Our cafe will serve you quickly
+        </p>
+        <div className="flex items-center gap-9">
+          <span className="font-medium text-[32px] text-white">7,45$</span>
+          <span className="text-xl leading-[163%] text-white">330 ml</span>
         </div>
+        <button className="py-3 px-9 rounded-[83px] font-semibold text-xl text-white cursor-pointer bg-[linear-gradient(265.23deg,_#237249_6.79%,_#35C66B_97.2%)]">
+          Buy Product
+        </button>
       </SwiperSlide>
-      <SwiperSlide>
-        <div className='border border-[#35C66B] px-11 py-8 w-[277px] h-[554px] rounded-[29px] flex flex-col items-center gap-2'>
-            <img src="src/assets/Group 132.png" alt="" />
-            <h3 className='text-white font-medium text-[32px]'>Cappuccino</h3>
-            <p className='text-[#D9D9D9] text-[20px] w-[216px] text-center'>Our cafe will serve you quickly</p>
-            <div className='flex items-center gap-4'>
-                <p className='text-[#D9D9D9] font-medium text-[32px]'>7,45$</p>
-                <p className='text-[#D9D9D9] text-[20px]'>330 ml</p>
-            </div>
-            <button className='text-white bg-[linear-gradient(265.23deg,_#237249_6.79%,_#35C66B_97.2%)] font-semibold text-[17px] py-4 px-9 rounded-[60px]'>Buy Product</button>
+
+      <SwiperSlide className="bg-amber-50 w-[277px]! h-[600px]! bg-transparent border border-[#35C66B] rounded-[29px] flex! flex-col items-center gap-2">
+        <img src="src/assets/coffe-3.png" alt="" />
+        <h3 className="font-medium text-[32px] text-white">Cappuccino</h3>
+        <p className="text-xl leading-[163%] text-white text-center">
+          Our cafe will serve you quickly
+        </p>
+        <div className="flex items-center gap-9">
+          <span className="font-medium text-[32px] text-white">7,45$</span>
+          <span className="text-xl leading-[163%] text-white">330 ml</span>
         </div>
+        <button className="py-3 px-9 rounded-[83px] font-semibold text-xl text-white cursor-pointer bg-[linear-gradient(265.23deg,_#237249_6.79%,_#35C66B_97.2%)]">
+          Buy Product
+        </button>
       </SwiperSlide>
-      
-     <div>
-     <SlideNextButton/>
-     </div>
     </Swiper>
-    
-  );  
-};  
+  );
+};

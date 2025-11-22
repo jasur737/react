@@ -5,6 +5,7 @@ import Header from './components/header'
 import Delicious from './components/delicious'
 import Swiper from './components/Swiper'
 import Products from './components/Products'
+import Events from './components/Events'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
      <Delicious/>
      <Products/>
      <Swiper/>
+     <Events/>
     </>
   )
 }
