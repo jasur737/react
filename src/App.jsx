@@ -6,6 +6,8 @@ import Delicious from './components/delicious'
 import Swiper from './components/Swiper'
 import Products from './components/Products'
 import Events from './components/Events'
+import Contacts from './components/Contacts'
+import Footer from './components/footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +20,8 @@ function App() {
      <Products/>
      <Swiper/>
      <Events/>
+     <Contacts/>
+     <Footer/>
     </>
   )
 }
