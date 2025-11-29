@@ -9,6 +9,7 @@ export default function Products() {
         <p className='text-[20px] text-[#D9D9D9] w-[444px]'>
         Have time to buy the most harmonious drinks in the new Starbucks coffee and don't forget about the discount!  Starbucks coffee and don't forget about the discount!
         </p>
+        <div className='absolute w-[290px] h-[245px] top-[2350px] left-[265px] effect-7'></div>
     </div>
   )
 }

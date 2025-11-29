@@ -35,3 +35,38 @@ body {
     display: none;
   }
   
+  .effect {
+    background: linear-gradient(267.2deg, rgba(35, 114, 73, 0.11) 3.05%, rgba(53, 198, 107, 0.146) 40.73%);
+    filter: blur(50px) !important
+
+  }
+  .effect-2 {
+    background: #D9D9D94D;
+    filter: blur(104px)
+
+  }
+  .effect-3 {
+    background: linear-gradient(267.2deg, rgba(35, 114, 73, 0.55) 3.05%, rgba(53, 198, 107, 0.73) 40.73%);
+    filter: blur(110px) !important
+
+  }
+  .effect-4 {
+    background: linear-gradient(267.2deg, rgba(35, 114, 73, 0.165) 3.05%, rgba(53, 198, 107, 0.219) 40.73%);
+    filter: blur(120px)
+
+  }
+  .effect-5 {
+    background: linear-gradient(267.2deg, rgba(35, 114, 73, 0.11) 3.05%, rgba(53, 198, 107, 0.146) 40.73%);
+    filter: blur(104.62498474121094px)
+
+  }
+  .effect-6 {
+    background: linear-gradient(267.2deg, rgba(35, 114, 73, 0.165) 3.05%, rgba(53, 198, 107, 0.219) 40.73%);
+    filter: blur(115.59999084472656px)
+
+  }
+  .effect-7 {
+    background: linear-gradient(267.2deg, rgba(35, 114, 73, 0.11) 3.05%, rgba(53, 198, 107, 0.146) 40.73%);
+    filter: blur(115.59999084472656px)
+
+  }
