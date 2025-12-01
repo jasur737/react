@@ -10,6 +10,8 @@ export default function Products() {
         Have time to buy the most harmonious drinks in the new Starbucks coffee and don't forget about the discount!  Starbucks coffee and don't forget about the discount!
         </p>
         <div className='absolute w-[290px] h-[245px] top-[2350px] left-[265px] effect-7'></div>
+        <div className='absolute w-[200px] h-[170px] top-[2906px] left-[1440px] effect-8'></div>
+        <div className='absolute w-[200px] h-[170px] top-[2906px] left-[50px] effect-8'></div>
     </div>
   )
 }

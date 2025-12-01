@@ -66,6 +66,7 @@ export default function Footer() {
           <img src="src/assets/media.svg" alt="" />
         </div>
       </div>
+      <div className='absolute w-22 h-18 top-[5250px] left-[1445px] effect-10'></div>
     </section>
   );
 }

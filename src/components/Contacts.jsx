@@ -24,6 +24,8 @@ export default function Contacts() {
       <div>
         <img src="src/assets/Group 53.png" alt="" />
       </div>
+      <div className="absolute w-[330px] h-[260px] top-1090 left-235 effect-9"></div>
+      <div className="absolute w-[330px] h-[260px] top-1140 left-35 effect-9"></div>
     </section>
   );
 }

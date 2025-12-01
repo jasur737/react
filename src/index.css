@@ -70,3 +70,18 @@ body {
     filter: blur(115.59999084472656px)
 
   }
+  .effect-8 {
+    background: linear-gradient(267.2deg, rgba(35, 114, 73, 0.0825) 3.05%, rgba(53, 198, 107, 0.1095) 40.73%);
+    filter: blur(40px)
+
+  }
+  .effect-9 {
+    background: linear-gradient(267.2deg, rgba(35, 114, 73, 0.165) 3.05%, rgba(53, 198, 107, 0.219) 40.73%);
+    filter: blur(69px)
+
+  }
+  .effect-10 {
+    background: linear-gradient(267.2deg, rgba(35, 114, 73, 0.0825) 3.05%, rgba(53, 198, 107, 0.1095) 40.73%);
+    filter: blur(9px)
+
+  }
